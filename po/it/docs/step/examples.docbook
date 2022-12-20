@@ -1,0 +1,242 @@
+<chapter id="examples">
+<title
+>Esempi per &step;</title
+> 
+<para
+>Il pacchetto &step; contiene diversi esempi istruttivi per aiutarti a capire i principi di funzionamento dell'applicazione. Per aprire un esempio dal gruppo predefinito scegli <menuchoice
+><guimenu
+>File</guimenu
+> <guisubmenu
+>Esempi</guisubmenu
+> <guimenuitem
+>Apri esempio...</guimenuitem
+></menuchoice
+> dal menu della finestra principale. </para>
+
+<para
+>Puoi condividere i tuoi esempi tramite <menuchoice
+><guimenu
+>File</guimenu
+> <guisubmenu
+>Esempi</guisubmenu
+> <guimenuitem
+>Condividi l'esperimento corrente...</guimenuitem
+></menuchoice
+> o scarica gli esempi condivisi da altri utenti da <menuchoice
+><guimenu
+>File</guimenu
+> <guisubmenu
+>Esempi</guisubmenu
+> <guimenuitem
+>Scarica nuovi esperimenti...</guimenuitem
+></menuchoice
+>. Gli esempi scaricati possono essere aperti tramite la voce di menu <menuchoice
+><guimenu
+>File</guimenu
+> <guisubmenu
+>Esempi</guisubmenu
+> <guimenuitem
+>Apri esempi scaricati...</guimenuitem
+></menuchoice
+>. </para>
+
+<para
+>Trovi di seguito le descrizioni dei file di esempio predefiniti. </para>
+
+<variablelist>
+<varlistentry id="brownian">
+<term
+>brownian.step</term>
+<listitem
+><para
+>Traccia la traiettoria di un disco rigido che interagisce con 40 particelle che si muovono casualmente in una scatola. Questo esempio simula il <ulink url="http://it.wikipedia.org/wiki/Moto_browniano"
+>moto browniano</ulink
+> delle particelle di un gas ideale.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="pendulum">
+<term
+>doublependulum.step</term>
+<listitem
+><para
+>Questo esempio simula il <ulink url="http://it.wikipedia.org/wiki/Doppio_pendolo"
+>movimento di un doppio pendolo</ulink
+> usando due particelle massicce e due aste.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="eightpendulum">
+<term
+>eightpendulum.step</term>
+<listitem
+><para
+>Questo esempio è una semplice dimostrazione del famoso <ulink url="http://it.wikipedia.org/wiki/Pendolo_di_Newton"
+>pendolo di Newton</ulink
+>. È realizzata in &step; usando aste, otto dischi ed una scatola. Le sei palline nel centro non si muovono perché trasferiscono semplicemente momento ed energia, non movimento.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="first">
+<term
+>first.step: primo esempio</term>
+<listitem
+><para
+>Questo esempio si compone di due parti. La prima parte contiene due particelle connesse da una molla e la seconda parte contiene due particelle cariche.</para>
+
+<variablelist>
+<varlistentry id="first-two-particles">
+<term
+>Due particelle connesse da una molla</term>
+<listitem>
+  <para
+>In questo esempio due particella sono aggiunte alla scena, collegate da una molla. Le proprietà di entrambe le particelle come velocità, momento, posizione &etc; sono state impostate nella finestra delle proprietà. Le proprietà della molla come rigidezza, lunghezza a riposo, smorzamento &etc; sono pure state impostate nella finestra delle proprietà. </para>
+ <para>
+   <emphasis
+>Spiegazione della simulazione:</emphasis>
+ </para>
+ <para
+>Questo è un buon esempio di un moto armonico semplice. Qui l'accelerazione di una particella è impostata nella direzione positiva dell'asse x (ascisse) e l'accelerazione dell'altra particella è impostata nella direzione negativa dell'asse x. Come risultato entrambe le particelle tirano la molla in direzioni opposte, mentre la molla tenta di riportare le due particelle indietro nelle loro posizioni originali. In questo modo il sistema esegue un moto armonico semplice. La simulazione delle particelle e della molla in queste condizioni può essere osservata sulla scena. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry id="first-two-charged">
+<term
+>Due particelle cariche</term>
+<listitem>
+  <para
+>La velocità di ogni particella carica è impostata in una direzione tale che le particelle cariche si muovono nelle rispettive direzioni delle proprie velocità, ma ogni particella ha una carica uguale ed opposta per cui le particelle tentando di attrarsi a vicenda. Come risultato, la simulazione delle particella cariche in queste condizioni può essere osservata sulla scena. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+
+<varlistentry id="fourpendula">
+<term
+>fourpendula.step</term>
+<listitem
+><para
+>Questo esempio è la corretta dimostrazione del <ulink url="http://it.wikipedia.org/wiki/Pendolo_di_Newton"
+>pendolo di Newton</ulink
+>. Poiché il sistema è imperfetto, col tempo i due dischi al centro appariranno in movimento.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="gas">
+<term
+>gas.step</term>
+<listitem
+><para
+>Questo esempio simula la pressione dei gas ideali causata dal <ulink url="http://it.wikipedia.org/wiki/Moto_browniano"
+>moto browniano</ulink
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="graph">
+<term
+>graph.step</term>
+<listitem
+><para
+>Traccia il grafico della velocità rispetto alla posizione per particle1 in un sistema di due particella connesse da una molla.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="liquid">
+<term
+>liquid.step</term>
+<listitem
+><para
+>Questo esempio simula un liquido monoatomico.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="lissajous">
+<term
+>lissajous.step</term>
+<listitem
+><para
+>Questo esempio simula una <ulink url="http://it.wikipedia.org/wiki/Figura_di_Lissajous"
+>figura di Lissajous</ulink
+> usando un modello di due particelle. I parametri del modello possono essere modificati usando il controllore al centro del mondo.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="motor1">
+<term
+>motor1.step</term>
+<listitem
+><para
+>Simula un corpo rigido triangolare sotto l'azione di tre motori lineari.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="motor-example">
+<term
+>motor.step</term>
+<listitem
+><para
+>Simula l'interazione di un motore lineare con un corpo rigido rettangolare su una molla.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="note-example">
+<term
+>note.step</term>
+<listitem
+><para
+>Esempio con una formula LaTeX (<ulink url="http://it.wikipedia.org/wiki/Teorema_della_divergenza"
+>teorema della divergenza</ulink
+>) ed un'immagine integrata.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="resonance">
+<term
+>resonance.step</term>
+<listitem
+><para
+>Questo esempio simula la risonanza in un sistema con motore angolare.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="softbody">
+<term
+>softbody.step</term>
+<listitem
+><para
+>Questo esempio simula l'interazione di due corpi rigidi con un corpo morbido posto tra di essi.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="solar">
+<term
+>solar.step</term>
+<listitem
+><para
+>Questo esempio simula il movimento dei corpi maggiori del Sistema Solare (il Sole ed i pianeti).</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="springs">
+<term
+>springs.step</term>
+<listitem
+><para
+>Questo esempio simula il movimento di un sistema planare di cinque particelle connesse da quattro molle.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="wave">
+<term
+>wave.step</term>
+<listitem
+><para
+>Il grafico sulla scena mostra le oscillazioni della particella verde. Quando inizi la simulazione, l'onda inizia a viaggiare dalla particella rossa. La particella blu rifletterà l'onda, che viaggerà così in direzione opposta finché la particella rossa non la rifletterà nuovamente. Dopo un po' di tempo l'onda svanisce a causa dello smorzamento delle molle.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+
+</chapter>

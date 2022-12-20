@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE StepCoreXML>
+<world xmlns="http://edu.kde.org/step/StepCoreXML" version="1.0" id="1">
+    <name>world1</name>
+    <color>#ffffffff</color>
+    <time>0</time>
+    <timeScale>1</timeScale>
+    <errorsCalculation>false</errorsCalculation>
+
+    <item class="Particle" id="2">
+        <name>particle1</name>
+        <color>#ff000000</color>
+        <position>(1.61,-1.91)</position>
+        <velocity>(1,0)</velocity>
+        <mass>1</mass>
+    </item>
+
+    <item class="Particle" id="3">
+        <name>particle2</name>
+        <color>#ff000000</color>
+        <position>(1.61,-2.41)</position>
+        <velocity>(1,0)</velocity>
+        <mass>1</mass>
+    </item>
+
+    <item class="Spring" id="4">
+        <name>spring1</name>
+        <color>#ff00ff00</color>
+        <restLength>3</restLength>
+        <stiffness>2.25</stiffness>
+        <damping>0</damping>
+        <body1>0</body1>
+        <body2>2</body2>
+        <localPosition1>(-1.39,-1.91)</localPosition1>
+        <localPosition2>(0,0)</localPosition2>
+    </item>
+
+    <item class="Spring" id="5">
+        <name>spring2</name>
+        <color>#ff00ff00</color>
+        <restLength>3</restLength>
+        <stiffness>1</stiffness>
+        <damping>0</damping>
+        <body1>0</body1>
+        <body2>3</body2>
+        <localPosition1>(-1.39,-2.41)</localPosition1>
+        <localPosition2>(0,0)</localPosition2>
+    </item>
+
+    <item class="Graph" id="6">
+        <name>graph1</name>
+        <color>#ff000000</color>
+        <position>(-0.961717,0.529527)</position>
+        <size>(300,300)</size>
+        <objectX>2</objectX>
+        <propertyX>position</propertyX>
+        <indexX>0</indexX>
+        <objectY>3</objectY>
+        <propertyY>position</propertyY>
+        <indexY>0</indexY>
+        <autoLimitsX>true</autoLimitsX>
+        <autoLimitsY>true</autoLimitsY>
+        <limitsX>(0,1)</limitsX>
+        <limitsY>(0,1)</limitsY>
+        <showPoints>false</showPoints>
+        <showLines>true</showLines>
+        <points></points>
+    </item>
+
+    <item class="Controller" id="7">
+        <name>controller1</name>
+        <color>#ff000000</color>
+        <position>(1.53387,0.223087)</position>
+        <size>(200,60)</size>
+        <object>4</object>
+        <property>stiffness</property>
+        <index>-1</index>
+        <limits>(0.1,10)</limits>
+        <increaseShortcut></increaseShortcut>
+        <decreaseShortcut></decreaseShortcut>
+        <increment>0.1</increment>
+    </item>
+
+    <item class="Note" id="8">
+        <name>note1</name>
+        <color>#ff000000</color>
+        <position>(-0.509559,1.56896)</position>
+        <size>(200,100)</size>
+        <text>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Lissajous curve&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</text>
+
+    </item>
+
+    <item class="Note" id="9">
+        <name>note2</name>
+        <color>#ff000000</color>
+        <position>(1.67474,0.832858)</position>
+        <size>(250,100)</size>
+        <text>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Sans Serif'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Please try to change the stiffness of spring1 and see 
+how the curve will change. Try the following values:&lt;br /&gt;1, 2.25, 1.7778, 1.5625, 0.6944&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</text>
+
+    </item>
+
+    <solver class="AdaptiveEulerSolver" id="10">
+        <name>solver1</name>
+        <stepSize>1</stepSize>
+        <toleranceAbs>0.001</toleranceAbs>
+        <toleranceRel>0.001</toleranceRel>
+    </solver>
+
+    <collisionSolver class="GJKCollisionSolver" id="11">
+        <name>collisionSolver1</name>
+        <toleranceAbs>0.001</toleranceAbs>
+    </collisionSolver>
+
+    <constraintSolver class="CGConstraintSolver" id="12">
+        <name>constraintSolver1</name>
+    </constraintSolver>
+
+</world>

@@ -1,0 +1,49 @@
+Source: step
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Aurélien COUDERC <coucouf@debian.org>,
+           Norbert Preining <norbert@preining.info>,
+Build-Depends: cmake (>= 3.5.0~),
+               debhelper-compat (= 13),
+               extra-cmake-modules (>= 5.9.0~),
+               gettext,
+               libeigen3-dev (>= 3.2.2~),
+               libglib2.0-dev,
+               libgsl-dev,
+               libkf5config-dev (>= 5.9.0~),
+               libkf5crash-dev (>= 5.9.0~),
+               libkf5doctools-dev  (>= 5.9.0~),
+               libkf5i18n-dev (>= 5.9.0~),
+               libkf5iconthemes-dev (>= 5.9.0~),
+               libkf5kio-dev (>= 5.9.0~),
+               libkf5newstuff-dev (>= 5.9.0~),
+               libkf5plotting-dev (>= 5.9.0~),
+               libkf5textwidgets-dev (>= 5.9.0~),
+               libqalculate-dev (>= 0.9.5),
+               libqt5opengl5-dev (>= 5.2.0~),
+               libqt5svg5-dev (>= 5.2.0~),
+               pkg-kde-tools (>> 0.15.15),
+               qtbase5-dev (>= 5.2.0~),
+               qttools5-dev (>= 5.2.0~),
+               shared-mime-info,
+Build-Conflicts: libeigen3-dev (<< 3.3.5-2~)
+Standards-Version: 4.5.1
+Homepage: https://apps.kde.org/en/step
+Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/step
+Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/step.git
+Rules-Requires-Root: no
+
+Package: step
+Architecture: any
+Section: science
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: interactive physical simulator for KDE
+ With Step you can not only learn but feel how physics works. You place some
+ bodies on the scene, add some forces such as gravity or springs, then click
+ "Simulate" and Step shows you how your scene will evolve according to the
+ laws of physics. You can change every property of bodies/forces in your
+ experiment (even during simulation) and see how this will change evolution
+ of the experiment.
+ .
+ This package is part of the KDE education module.

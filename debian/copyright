@@ -1,0 +1,191 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Contact: kde-devel@kde.org
+Source: https://invent.kde.org/education/step
+
+Files: *
+Copyright: 2014, Inge Wallin <inge@lysator.liu.se>
+           2008-2010, Rosetta Contributors and Canonical Ltd
+           2008-2018, This_file_is_part_of_KDE
+           2007-2009, Vladimir Kuznetsov <ks.vladimir@gmail.com>
+License: GPL-2+
+
+Files: autotests/CMakeLists.txt
+       cmake/modules/FindEigen3.cmake
+Copyright: 2014-2015, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+           2009, Benoit Jacob <jacob.benoit.1@gmail.com>
+           2008-2009, Gael Guennebaud <g.gael@free.fr>
+           2006-2007, Montel Laurent <montel@kde.org>
+License: BSD-2-clause
+
+Files: autotests/test_contacts.h
+       autotests/test_forces.cc
+       autotests/test_forces.h
+       autotests/test_metaobject.h
+       autotests/test_worldcopy.h
+Copyright: 2014-2015, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: LGPL-2.1+3+KDEeV
+
+Files: cmake/modules/FindGSL.cmake
+       cmake/modules/FindQalculate.cmake
+Copyright: 2008, Allen Winter <winter@kde.org>
+           2007, Vladimir Kuznetsov <ks.vladimir@gmail.com>
+License: BSD-3-clause
+
+Files: org.kde.step.appdata.xml
+Copyright: 2014, Andreas Cord-Landwehr <cordlandwehr@kde.org>
+License: CC0-1.0
+
+Files: po/ca@valencia/step.po
+       po/ca/step.po
+       poqm/ca@valencia/step_qt.po
+       poqm/ca/step_qt.po
+Copyright: 2008-2020, This_file_is_part_of_KDE
+License: LGPL-2+
+
+Files: po/ca/step_objinfo_files.po
+       po/ca/step_example_files.po
+       po/ca@valencia/step_objinfo_files.po
+       po/ca@valencia/step_example_files.po
+       po/uk/step.po
+       po/uk/step_objinfo_files.po
+       po/uk/step_example_files.po
+       poqm/uk/step_qt.po
+Copyright: 2008-2020, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV-translations
+
+Files: doc/*
+Copyright: 2007, Anne-Marie Mahfouf <annma@kde.org>
+           2007, Vladimir Kuznetsov
+License: GFDL-NIV-1.2+
+
+Files: debian/*
+Copyright: 2011-2020, Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+           2011, Kubuntu Developers <kubuntu-devel@lists.launchpad.net>
+License: GPL-2+
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along
+ with this software. If not, see
+ <https://creativecommons.org/publicdomain/zero/1.0/>. 
+ --
+ On Debian systems, the complete text of the CC0 Public Domain Dedication
+ can be found in `/usr/share/common-licenses/CC0-1.0’.          
+
+License: GFDL-NIV-1.2+
+ Permission is granted to copy, distribute and/or modify this document under
+ the terms of the GNU Free Documentation License, Version 1.2 or any later
+ version published by the Free Software Foundation; with no Invariant
+ Sections, no Front-Cover Texts, and no Back-Cover Texts.
+ --
+ On Debian systems, the complete text of the GNU Free Documentation License
+ version 1.2 can be found in `/usr/share/common-licenses/GFDL-1.2’.
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc.,
+ 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ --
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2’.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ --
+ On Debian systems, the complete text of the GNU Library General Public License
+ version 2 can be found in `/usr/share/common-licenses/LGPL-2’.
+
+License: LGPL-2.1+3+KDEeV
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in the file `/usr/share/common-licenses/LGPL-2.1’, likewise,
+ the complete text of the GNU Lesser General Public License version 3
+ can be found in the file `/usr/share/common-licenses/LGPL-3’.
+
+License: LGPL-2.1+3+KDEeV-translations
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ --
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1’,
+ likewise, the complete text of the GNU Lesser General Public License version
+ 3 can be found in `/usr/share/common-licenses/LGPL-3’.

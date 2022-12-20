@@ -1,0 +1,242 @@
+<chapter id="examples">
+<title
+>Exemples per a &step;</title
+> 
+<para
+>El paquet &step; conté diversos exemples instructius per ajudar a entendre els principis de treballar amb l'aplicació. Per obrir un exemple de la configuració per omissió seleccioneu <menuchoice
+><guimenu
+>Fitxer</guimenu
+> <guisubmenu
+>Exemples</guisubmenu
+> <guimenuitem
+>Obre un exemple...</guimenuitem
+></menuchoice
+> des del menú de la finestra principal. </para>
+
+<para
+>Podeu compartir els vostres propis exemples amb <menuchoice
+><guimenu
+>Fitxer</guimenu
+> <guisubmenu
+>Exemples</guisubmenu
+> <guimenuitem
+>Comparteix l'experiment actual...</guimenuitem
+></menuchoice
+> o descarregar exemples compartits per altres usuaris amb <menuchoice
+><guimenu
+>Fitxer</guimenu
+> <guisubmenu
+>Exemples</guisubmenu
+> <guimenuitem
+>Descarrega nous experiments...</guimenuitem
+></menuchoice
+>. Els exemples descarregats es poden obrir utilitzant l'element de menú <menuchoice
+><guimenu
+>Fitxer</guimenu
+> <guisubmenu
+>Exemples</guisubmenu
+> <guimenuitem
+>Obre un exemple descarregat...</guimenuitem
+></menuchoice
+>. </para>
+
+<para
+>A sota trobareu les descripcions dels fitxers d'exemple per omissió. </para>
+
+<variablelist>
+<varlistentry id="brownian">
+<term
+>brownian.step</term>
+<listitem
+><para
+>Traça la trajectòria del disc rígid interactuant amb 40 partícules que es mouen a la deriva de forma aleatòria dins d'una caixa. Aquest exemple simula el <ulink url="http://en.wikipedia.org/wiki/Brownian_motion"
+>moviment brownià</ulink
+> de les partícules d'un gas ideal.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="pendulum">
+<term
+>doublependulum.step</term>
+<listitem
+><para
+>Aquest exemple simula el <ulink url="http://en.wikipedia.org/wiki/Double_pendulum"
+>moviment del pèndol doble</ulink
+> utilitzant dues partícules massives i dos bastons.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="eightpendulum">
+<term
+>eightpendulum.step</term>
+<listitem
+><para
+>Aquest exemple és una simple demostració del famós <ulink url="http://en.wikipedia.org/wiki/Newton%27s_cradle"
+>pèndol de Newton</ulink
+>. Això es fa en &step; utilitzant bastons, vuit discs i una caixa. Les sis boles centrals no es mouen perquè es limiten a transferir l'impuls i l'energia, no un moviment.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="first">
+<term
+>first.step: Primer exemple</term>
+<listitem
+><para
+>Aquest exemple consisteix de dues parts. La primera part conté dues partícules connectades per una molla i la segona part conté dues partícules carregades.</para>
+
+<variablelist>
+<varlistentry id="first-two-particles">
+<term
+>Dues partícules connectades per una molla</term>
+<listitem>
+  <para
+>En aquest exemple s'afegeixen dues partícules a l'escena i una molla les connecta. Les propietats d'ambdues partícules com ara la velocitat, impuls, posició, &etc; s'han establert en el navegador de propietats. Les propietats de la molla com ara rigidesa, longitud en repòs, amortiment, &etc; també s'han establert en el navegador de propietats. </para>
+ <para>
+   <emphasis
+>Explicació de la simulació:</emphasis>
+ </para>
+ <para
+>Aquest és un bon exemple d'un moviment harmònic simple. Aquí, l'acceleració d'una de les partícules s'ha establert en la direcció positiva de l'eix X, mentre que l'acceleració de l'altra partícula s'estableix al llarg negatiu de l'eix X. Com a resultat, ambdues partícules tiren de la molla en direccions oposades, mentre la molla tracta de portar les dues partícules a les seves posicions originals. D'aquesta manera, el sistema executa un moviment harmònic simple. A l'escena es pot veure la simulació de les partícules i la molla sota aquestes condicions. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry id="first-two-charged">
+<term
+>Dues partícules carregades</term>
+<listitem>
+  <para
+>La velocitat de cada partícula carregada s'ha establert en una direcció de manera que les partícules carregades es moguin en la direcció respectiva de la seva velocitat, tot i que, a cada partícula se li ha donat una càrrega igual i oposada de manera que es mirin d'atreure entre si. A l'escena es pot veure el resultat de la simulació de les partícules carregades sota aquestes condicions. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+
+<varlistentry id="fourpendula">
+<term
+>fourpendula.step</term>
+<listitem
+><para
+>Aquest exemple és una demostració correcta del <ulink url="http://en.wikipedia.org/wiki/Newton%27s_cradle"
+>pèndul de Newton</ulink
+>. Com el sistema és imperfecte, amb el temps, els dos discs centrals arriben a obtenir moviment visual.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="gas">
+<term
+>gas.step</term>
+<listitem
+><para
+>Aquest exemple simula la pressió d'un gas ideal causada pel <ulink url="http://en.wikipedia.org/wiki/Brownian_motion"
+>moviment brownià</ulink
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="graph">
+<term
+>graph.step</term>
+<listitem
+><para
+>Traça un graf de la velocitat enfront de la posició de la primera partícula d'un sistema de dues partícules connectades amb una molla.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="liquid">
+<term
+>liquid.step</term>
+<listitem
+><para
+>Aquest exemple simula un líquid monoatòmic.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="lissajous">
+<term
+>lissajous.step</term>
+<listitem
+><para
+>Aquest exemple simula la <ulink url="http://en.wikipedia.org/wiki/Lissajous_curve"
+>corba de Lissajous</ulink
+> utilitzant un model de dues partícules. Els paràmetres en el model es poden canviar utilitzant el controlador que hi ha al centre del món.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="motor1">
+<term
+>motor1.step</term>
+<listitem
+><para
+>Simula un cos rígid triangular sota la càrrega dels tres motors lineals.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="motor-example">
+<term
+>motor.step</term>
+<listitem
+><para
+>Simula la interacció del motor lineal amb un cos rígid rectangular en una molla.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="note-example">
+<term
+>note.step</term>
+<listitem
+><para
+>Exemple amb una fórmula LaTeX (<ulink url="http://en.wikipedia.org/wiki/Divergence_theorem"
+>teorema de la divergència</ulink
+>) i la imatge incrustada.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="resonance">
+<term
+>resonance.step</term>
+<listitem
+><para
+>Aquest exemple simula la ressonància en el sistema amb un motor angular.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="softbody">
+<term
+>softbody.step</term>
+<listitem
+><para
+>Aquest exemple simula la interacció de dos cossos rígids amb un cos tou.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="solar">
+<term
+>solar.step</term>
+<listitem
+><para
+>Aquest exemple simula el moviment dels cossos principals del Sistema Solar (el Sol i els planetes).</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="springs">
+<term
+>springs.step</term>
+<listitem
+><para
+>Aquest exemple simula el moviment del sistema planar de cinc partícules connectades amb quatre molles.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="wave">
+<term
+>wave.step</term>
+<listitem
+><para
+>El graf de l'escena mostra les oscil·lacions de la partícula de color verd. Quan inicieu la simulació, l'onada començarà a viatjar des de la partícula de color vermell. La partícula de color blau reflectirà l'onada i viatjarà en direcció contrària fins que la partícula de color vermell torni a reflectir-la. Després d'algun temps, l'onada s'esvairà per l'amortiment de les molles.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+
+</chapter>

@@ -1,0 +1,242 @@
+<chapter id="examples">
+<title
+>Приклади &step;</title
+> 
+<para
+>У пакунку &step; міститься декілька корисних прикладів, які допоможуть вам розібратися у принципах роботи програми. Щоб відкрити приклад з типового набору, скористайтеся пунктом <menuchoice
+><guimenu
+>Файл</guimenu
+> <guisubmenu
+>Приклади</guisubmenu
+> <guimenuitem
+>Відкрити приклад...</guimenuitem
+></menuchoice
+> з меню головного вікна програми. </para>
+
+<para
+>Ви можете поділитися з іншими користувачами створеними вами прикладами за допомогою пункту меню <menuchoice
+><guimenu
+>Файл</guimenu
+> <guisubmenu
+>Приклади</guisubmenu
+> <guimenuitem
+>Поділитися поточним експериментом...</guimenuitem
+></menuchoice
+> або отримати з інтернету приклади, оприлюднені іншими користувачами, за допомогою пункту меню <menuchoice
+><guimenu
+>Файл</guimenu
+> <guisubmenu
+>Приклад</guisubmenu
+> <guimenuitem
+>Отримати нові експерименти...</guimenuitem
+></menuchoice
+>. Отримані експерименти можна відкрити за допомогою пункту меню <menuchoice
+><guimenu
+>Файл</guimenu
+> <guisubmenu
+>Приклади</guisubmenu
+> <guimenuitem
+>Відкрити отриманий приклад...</guimenuitem
+></menuchoice
+>. </para>
+
+<para
+>Нижче наведено описи типових файлів прикладів. </para>
+
+<variablelist>
+<varlistentry id="brownian">
+<term
+>brownian.step</term>
+<listitem
+><para
+>Малює траєкторію жорсткого диска, що взаємодіє з 40 частинками, які випадковим чином рухаються у закритій посудині. У цьому прикладі моделюється <ulink url="http://uk.wikipedia.org/wiki/Броунівський_рух"
+>броунівський рух</ulink
+> частинок ідеального газу.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="pendulum">
+<term
+>doublependulum.step</term>
+<listitem
+><para
+>У цьому прикладі імітується рух <ulink url="http://en.wikipedia.org/wiki/Double_pendulum"
+>подвійного маятника</ulink
+> за допомогою 2 масивних частинок та двох паличок.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="eightpendulum">
+<term
+>eightpendulum.step</term>
+<listitem
+><para
+>Цей приклад є простою демонстрацією відомої <ulink url="http://en.wikipedia.org/wiki/Newton%27s_cradle"
+>колиски Ньютона</ulink
+>. У &step; імітацію реалізовано за допомогою паличок, дисків та блоку. Шість кульок посередині конструкції не рухаються, оскільки вони передають лише імпульс та енергію, а не рух.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="first">
+<term
+>first.step: Перший приклад</term>
+<listitem
+><para
+>Цей приклад складається з двох частин. Перша частина пов’язана з рухом двох частинок, з’єднаних пружиною, та другої частини, що описує рух двох заряджених часток.</para>
+
+<variablelist>
+<varlistentry id="first-two-particles">
+<term
+>Дві частинки, з’єднані пружиною</term>
+<listitem>
+  <para
+>У цьому прикладі на поле додано дві частинки, з’єднані пружиною. Властивості обох частинок, зокрема швидкість, імпульс, розташування тощо можна задати за допомогою панелі перегляду властивостей. Властивості пружини, зокрема жорсткість, довжину у стані спокою, в’язкість тощо, також можна задати за допомогою панелі перегляду властивостей. </para>
+ <para>
+   <emphasis
+>Пояснення щодо імітації:</emphasis>
+ </para>
+ <para
+>Чудовий приклад простого гармонійного руху. Прискорення однієї частинки спрямовано у напрямку додатних значень вісі x, а прискорення іншої — у напрямку від’ємних значень. В результаті частинки розтягують пружину у протилежних напрямках, пружина ж намагається повернути частинки на початкові позиції. Таким чином система перебуває у стані простого гармонійного періодичного руху. Імітацію цього руху і можна бачити на сцені. </para>
+</listitem>
+</varlistentry>
+
+<varlistentry id="first-two-charged">
+<term
+>Дві заряджені частинки</term>
+<listitem>
+  <para
+>Кожній з заряджених часток надано швидкості у певному напрямку. Крім того, кожній з часток надано рівного за модулем, але протилежного за знаком заряду, отже частки притягуються одна до одної. Результат імітації руху цієї системи можна бачити у прикладі. </para>
+</listitem>
+</varlistentry>
+</variablelist>
+</listitem>
+</varlistentry>
+
+<varlistentry id="fourpendula">
+<term
+>fourpendula.step</term>
+<listitem
+><para
+>Цей приклад є реалістичною демонстрацією <ulink url="http://en.wikipedia.org/wiki/Newton%27s_cradle"
+>колиски Ньютона</ulink
+>. Оскільки система не є ідеальною, з часом два диски посередині починають коливатися разом з іншими дисками.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="gas">
+<term
+>gas.step</term>
+<listitem
+><para
+>У цьому прикладі моделюється тиск ідеального газу, спричинений <ulink url="http://uk.wikipedia.org/wiki/Броунівський_рух"
+>броунівським рухом</ulink
+>.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="graph">
+<term
+>graph.step</term>
+<listitem
+><para
+>Малює графік залежності швидкості від розташування для частинки1 у системі двох частинок, з’єднаних пружиною.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="liquid">
+<term
+>liquid.step</term>
+<listitem
+><para
+>У цьому прикладі моделюється рух одноатомної рідини.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="lissajous">
+<term
+>lissajous.step</term>
+<listitem
+><para
+>У цьому прикладі за допомогою моделі, що складається з двох часток, моделюється <ulink url="http://uk.wikipedia.org/wiki/Фігури_Ліссажу"
+>крива Ліссажу</ulink
+>. Змінювати параметри моделі можна за допомогою регулятора, розташованого у центрі сцени.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="motor1">
+<term
+>motor1.step</term>
+<listitem
+><para
+>Імітує рух трикутного жорсткого тіла внаслідок його навантаження трьома лінійними рушіями.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="motor-example">
+<term
+>motor.step</term>
+<listitem
+><para
+>Імітує взаємодію лінійного рушія з жорстким прямокутним тілом на пружині.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="note-example">
+<term
+>note.step</term>
+<listitem
+><para
+>Приклад з формулою у записі LaTeX (<ulink url="http://uk.wikipedia.org/wiki/Формула_Остроградського"
+>формула Остроградського</ulink
+>) та вбудованим зображенням.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="resonance">
+<term
+>resonance.step</term>
+<listitem
+><para
+>У цьому прикладі наведено імітацію резонансу у системі з обертальним рушієм.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="softbody">
+<term
+>softbody.step</term>
+<listitem
+><para
+>У цьому прикладі наведено імітацію зіткнення трьох тіл: двох жорстких і одного пружного, розташованого між ними.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="solar">
+<term
+>solar.step</term>
+<listitem
+><para
+>У цьому прикладі наведено імітацію руху основних тіл Сонячної системи (Сонця та планет).</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="springs">
+<term
+>springs.step</term>
+<listitem
+><para
+>У цьому прикладі наведено імітацію руху плоскої системи п’яти частинок, з’єднаних чотирма пружинами.</para
+></listitem>
+</varlistentry>
+
+<varlistentry id="wave">
+<term
+>wave.step</term>
+<listitem
+><para
+>На графіку сцени показано рух зеленої частинки. На початку імітації хвиля руху у системі часток з’єднаних пружинами починає рухатися від червоної частинки. Хвиля відіб’ється від синьої частинки і почне рухатися у зворотному напрямі, аж доки не відіб’ється від червоної частинки. Коливання згасатимуть через розсіювання енергії у пружинах.</para
+></listitem>
+</varlistentry>
+
+</variablelist>
+
+</chapter>

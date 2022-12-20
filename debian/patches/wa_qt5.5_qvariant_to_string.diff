@@ -1,0 +1,22 @@
+From: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 01:13:13 +0200
+Subject: wa_qt5.5_qvariant_to_string
+
+===================================================================
+---
+ autotests/test_metaobject.cc | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/autotests/test_metaobject.cc b/autotests/test_metaobject.cc
+index 9ea7413..dc9b142 100644
+--- a/autotests/test_metaobject.cc
++++ b/autotests/test_metaobject.cc
+@@ -170,7 +170,7 @@ void TestMetaobject::testMetaObject()
+     QCOMPARE( testObject->property1(), 1.1 );
+     QVERIFY( property->writeVariant(object, QVariant(2.2)) );
+     QCOMPARE( testObject->property1(), 2.2 );
+-    QCOMPARE( property->readString(object), QString("2.2") );
++    QCOMPARE( QString::number(property->readVariant(object).value<double>()), QString("2.2") );
+     QCOMPARE( property->readVariant(object), QVariant(2.2) );
+ 
+     QVERIFY( !property->writeString(object, "not number") );
